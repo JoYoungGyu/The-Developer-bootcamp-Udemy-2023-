@@ -1,0 +1,15 @@
+/*격자형태로 만들기*/
+
+img{
+    width: 30%;
+    margin : calc(10%/6);
+}
+
+nav{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding : 20px 0;
+}
