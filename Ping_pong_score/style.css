@@ -1,0 +1,19 @@
+#pingpong_character{
+    max-width: 520px;
+    max-height: 520px;
+    width: 520px;
+    height: 400px;  
+}
+
+#pingpong_desc{
+    display: block;
+    color : black;
+}
+
+#team_A, #team_B{
+    font-size : 20px;
+}
+
+.container_small{
+    max-width: 520px;
+}

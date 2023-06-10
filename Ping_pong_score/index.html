@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>탁구 점수</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- 위쪽 헤더 부분 -->
+    <div class="container d-flex justify-content-center">
+      <h1>탁구 점수 시뮬레이션</h1>
+    </div>
+    <div class="container d-flex justify-content-center mt-2">
+      <img src="게시판이미지.png" alt="탁구 점수세기" id="pingpong_character">
+    </div>
+    <div class="container d-flex justify-content-center" id="pingpong_desc">
+      Ping Pong Score Keeper!
+    </div>
+    <!-- 위쪽 헤더 부분 -->
+
+    <div class="container d-flex justify-content-left container_small">
+      <span class="ml-5" id="team_A" style="color:black;">0</span>&nbsp;to&nbsp;<span id="team_B" style="color:black;">0</span>
+    </div>
+    <div class="container d-flex justify-content-center">
+      Use the buttons below to keep score
+    </div>
+    <div class="container d-flex justify-content-left container_small">
+      <span><b>Playing To</b>&nbsp; : &nbsp;</span>
+      <select id="goal_score">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+      </select>
+    </div>
+    <div class="container d-flex justify-content-center mt-2"> 
+      <button type="button" id="add_Player1" class="btn btn-primary">+1 Player One</button>
+      <button type="button" id="add_Player2" class="btn btn-success">+1 Player Two</button>
+      <button type="button" id="reset_game" class="btn btn-danger">Reset</button>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script> 
+    
+</body>
+</html>
